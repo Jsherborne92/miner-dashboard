@@ -118,6 +118,11 @@ export function OverviewGraph({ statistics }: OverviewGraphProps) {
             
             <Tooltip
               labelFormatter={(unixTime) => formatDate(unixTime, "MM/DD/YY")}
+              contentStyle={{
+                backgroundColor: "#102030",
+                border: "1px solid #111c2d",
+                borderRadius: "5px",
+              }}
             />
             
             <Legend

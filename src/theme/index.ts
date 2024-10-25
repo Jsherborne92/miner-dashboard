@@ -1,14 +1,19 @@
 import { createTheme } from "@mantine/core";
 
-import { orange } from "./colors";
+import { blue, darkBlue, dodgerBlue, orange } from "./colors";
 
 export const theme = createTheme({
+
   cursorType: "pointer",
-  defaultRadius: "0",
-  black: "#000",
+  defaultRadius: "10",
+  black: "#102030",
   primaryColor: "orange",
   colors: {
-    orange,
+    blue,
+    darkBlue,
+    dodgerBlue,
+    orange
+
   },
   headings: { fontFamily: 'ADLaM Display' },
   fontFamily: 'DM Sans Variable',

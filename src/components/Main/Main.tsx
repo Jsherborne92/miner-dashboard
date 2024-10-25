@@ -21,8 +21,8 @@ export const Main = ({ data }: MainProps) => {
       <Challenges statistics={statistics} />
       <Checkpoints statistics={statistics} />
       <Statistics statistics={statistics} positions={positions} />
-      <Positions positions={positions[hotkey].positions} />
       <OverviewGraph statistics={statistics} />
+      <Positions positions={positions[hotkey].positions} />
     </Container>
   );
 };

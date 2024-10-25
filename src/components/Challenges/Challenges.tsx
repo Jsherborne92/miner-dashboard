@@ -26,9 +26,9 @@ export const Challenges = ({ statistics }: ChallengesProps) => {
               <Card withBorder className="flex-1">
                 <div>
                   <div className="flex justify-between text-sm mb-2">
-                    <p className="font-medium text-gray-900">Positions</p>
+                    <p className="font-medium text-gray dark:text-gray-50">Positions</p>
                     <span
-                      className="font-medium text-gray-900 dark:text-gray-50">{positions.value}<span
+                      className="font-medium text-gray-50 dark:text-gray-500">{positions.value}<span
                       className="font-normal text-gray-500">/{positions.target.toFixed(2).toString()}</span></span>
                   </div>
                   <ProgressBar
@@ -57,9 +57,9 @@ export const Challenges = ({ statistics }: ChallengesProps) => {
               <Card withBorder className="flex-1">
                 <div>
                   <p className="flex justify-between text-sm mb-2">
-                    <span className="font-medium text-gray-900">Return</span>
+                    <span className="font-medium text-gray dark:text-gray-50">Return</span>
                     <span
-                      className="font-medium text-gray-900 dark:text-gray-50">{challengeReturn.value.toFixed(2)}<span
+                      className="font-medium text-gray-50 dark:text-gray-500">{challengeReturn.value.toFixed(2)}<span
                       className="font-normal text-gray-500">/{challengeReturn.target.toFixed(2).toString()+'%'}</span></span>
                   </p>
                   <ProgressBar
@@ -89,9 +89,9 @@ export const Challenges = ({ statistics }: ChallengesProps) => {
               <Card withBorder className="flex-1">
                 <div>
                   <p className="flex justify-between text-sm mb-2">
-                    <span className="font-medium text-gray-900">Return Ratio</span>
+                    <span className="font-medium text-gray dark:text-gray-50">Return Ratio</span>
                     <span
-                      className="font-medium text-gray-900 dark:text-gray-50">{return_ratio.value}<span
+                      className="font-medium text-gray-50 dark:text-gray-500">{return_ratio.value}<span
                       className="font-normal text-gray-500">/{return_ratio.target.toFixed(2).toString()}</span></span>
                   </p>
                   <ProgressBar
@@ -121,9 +121,9 @@ export const Challenges = ({ statistics }: ChallengesProps) => {
               <Card withBorder className="flex-1">
                 <div>
                   <p className="flex justify-between text-sm mb-2">
-                    <span className="font-medium text-gray-900">Unrealized Ratio</span>
+                    <span className="font-medium text-gray dark:text-gray-50">Unrealized Ratio</span>
                     <span
-                      className="font-medium text-gray-900 dark:text-gray-50">{unrealized_ratio.value.toFixed(2)}<span
+                      className="font-medium text-gray-50 dark:text-gray-500">{unrealized_ratio.value.toFixed(2)}<span
                       className="font-normal text-gray-500">/{unrealized_ratio.target.toFixed(2).toString()}</span></span>
                   </p>
                   <ProgressBar
